@@ -1,167 +1,72 @@
-<!DOCTYPE html>
 <html>
 <head>
-<style>
     
+    <title>B00</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     
-    ul{
-    list-style-type :none ;
-    margin: 0;
-    padding: 0 ;
-    width: 200px ;
-    background-color: #f1f1f1 ;
-}
-li a{
-    display: block ;
-    color: #000 ;
-    padding: 8px 16px ;
-    text-decoration: none ;
-    
-}
-    li a:hover {
-        background-color: #555;
-        color:white;
-    }
-.activ{
-    background-color: #555 ;
-    color: white
-}
-
-    
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 10px;
-  background: #f1f1f1;
-}
-
-/* Header/Blog Title */
-.header {
-  padding: 30px;
-  text-align: center;
-  background: white;
-}
-
-.header h1 {
-  font-size: 30px;
-}
-
-/* Style the top navigation bar */
-
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
-    width: 100%;
-    padding: 0;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-</style>
-</head>
+ 
+    </head>
 <body>
-<!--الرأس-->
-<div class="header">
-  <h1>تطبيق احاديث نبويه </h1>
-  <p>________</p>
+      <div class="container">     <!-- يستخدم للشاشة الصغيرة-->
+
+          
+    
+    <div class="page-header">
+  <h1 dir="rtl">موقع كتاب <small dir="rtl" >لنشر  العلم </small></h1>
 </div>
     
-    <!--العمود الي على اليسار
-  -->
-    <div class="rightcolumn">
-    <div class="card">
-      
-        
-    <ul>
-    <li><a href="h.html" class="itm">home</a></li>
-        <li><a href="a.html" class="itm">About me</a></li>
-        <li><a href="c.html" class="activ">Contact me</a></li>
-       
- </ul>
+ 
     
+      
+    
+    
+    
+  
+    
+    
+    
+       <div class="row">
+  <div class="col-sm-6 col-md-3">
+    <div class="list-group">
+  <a href="h.w2.html" class="list-group-item active">
+    hoom
+  </a>
+  <a href="a.html" class="list-group-item">abuot</a>
+  <a href="c.html" class="list-group-item">contact</a>
+  
+</div>
+ </div>
 
+    
+        
+  <div class="col-sm-4 col-md-5">
+    
+  <h1 dir="rtl">للتواصل معنى  </h1>
+  <p dir="rtl" >من أجل تقديم البلاغات وشكاوي يرجى التواصل عبر بريد   
+      </p>
+      <p dir="rtl" >E:man@gmail.com</p>
+
+</div>
     </div>
-        
-  </div>
-  <!------------------------>
-        
-        <!--الصفحه في اليمين
-      -->
-<div class="row">
-  <div class="leftcolumn">
     
-    <div class="card">
-      <h2>للإتصال بنى </h2>
-      
-      
-                 
-      
-      <p> E:www@gmail.com</p>
-    </div>
-      
-<!------------------->
-      
-  </div>
+    
+    
+    
+    
+    <footer class="footer">
+      <div class="container text-center">
+        <span class="text-muted">  بواسطه : الألباب</span>
+      </div>
+    </footer>
+        </div>
+    </body>
 
-</div>
 
-<div class="footer">
-  <P>بواسطه : تقنيه المعلومات </P>
-</div>
-
-</body>
 </html>
